@@ -1,0 +1,15 @@
+sequentialfs_invoke
+Start forward sequential feature selection:
+Initial columns included:  none
+Columns that can not be included:  none
+Step 1, added column 234, criterion value 11.6561
+Step 2, added column 186, criterion value 8.79622
+Step 3, added column 138, criterion value 6.05457
+Step 4, added column 199, criterion value 5.31239
+Step 5, added column 71, criterion value 4.05988
+Step 6, added column 149, criterion value 3.52051
+Step 7, added column 210, criterion value 3.09568
+Step 8, added column 93, criterion value 2.86499
+Step 9, added column 156, criterion value 2.39744
+Step 10, added column 244, criterion value 2.27067
+Final columns included:  71 93 138 149 156 186 199 210 234 244 

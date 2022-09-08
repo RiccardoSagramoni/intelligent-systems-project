@@ -1,0 +1,86 @@
+ANFIS info:
+	Number of nodes: 286
+	Number of linear parameters: 500
+	Number of nonlinear parameters: 45
+	Total number of parameters: 545
+	Number of training data pairs: 3366
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 125
+
+
+Start training ANFIS ...
+
+1 	 0.478491
+2 	 0.476439
+3 	 0.474527
+4 	 0.472764
+Step size increases to 0.011000 after epoch 5.
+5 	 0.471151
+6 	 0.469673
+7 	 0.468189
+8 	 0.466835
+Step size increases to 0.012100 after epoch 9.
+9 	 0.465593
+10 	 0.464437
+11 	 0.46322
+12 	 0.462
+Step size increases to 0.013310 after epoch 13.
+13 	 0.46072
+14 	 0.459367
+15 	 0.45786
+16 	 0.456402
+Step size increases to 0.014641 after epoch 17.
+17 	 0.454996
+18 	 0.453611
+19 	 0.452102
+20 	 0.45063
+Step size increases to 0.016105 after epoch 21.
+21 	 0.449244
+22 	 0.44804
+23 	 0.446952
+24 	 0.4456
+Step size increases to 0.017716 after epoch 25.
+25 	 0.444011
+26 	 0.442259
+27 	 0.440505
+28 	 0.439374
+Step size increases to 0.019487 after epoch 29.
+29 	 0.438925
+30 	 0.438482
+31 	 0.438593
+32 	 0.43804
+33 	 0.438137
+Step size decreases to 0.017538 after epoch 34.
+34 	 0.43768
+35 	 0.437761
+36 	 0.43709
+37 	 0.437373
+Step size decreases to 0.015785 after epoch 38.
+38 	 0.436821
+39 	 0.437033
+40 	 0.436364
+41 	 0.436672
+Step size decreases to 0.014206 after epoch 42.
+42 	 0.43614
+43 	 0.436348
+44 	 0.435768
+45 	 0.436007
+Step size decreases to 0.012786 after epoch 46.
+46 	 0.435574
+47 	 0.435695
+48 	 0.435261
+49 	 0.435378
+Step size decreases to 0.011507 after epoch 50.
+50 	 0.435085
+
+Designated epoch number reached. ANFIS training completed at epoch 50.
+
+Minimal training RMSE = 0.435085
+Correctly classified: 82.055853%
+SIT: 79.679144%
+WALK: 91.711230%
+RUN: 74.777184%
+
+[SIT]: classified as sit 79.679144%, walk 19.073084%, run 1.069519%
+[WALK]: classified as sit 2.941176%, walk 91.711230%, run 5.347594%
+[RUN]: classified as sit 2.673797%, walk 22.192513%, run 74.777184%

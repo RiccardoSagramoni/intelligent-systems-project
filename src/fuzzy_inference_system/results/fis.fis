@@ -1,0 +1,65 @@
+[System]
+Name='fis'
+Type='mamdani'
+Version=2.0
+NumInputs=3
+NumOutputs=1
+NumRules=16
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='lom'
+
+[Input1]
+Name='feature_1'
+Range=[0 1]
+NumMFs=4
+MF1='low':'sigmf',[-39.6865911718466 0.0935]
+MF2='medium':'dsigmf',[68.2 0.129 37.7238366892729 0.299]
+MF3='medium-high':'dsigmf',[47.6 0.307 17.0864528516952 0.613]
+MF4='high':'sigmf',[19.594085366135 0.577]
+
+[Input2]
+Name='feature_2'
+Range=[0 1]
+NumMFs=4
+MF1='low':'sigmf',[-80.5 0.0740046224961479]
+MF2='medium':'dsigmf',[52.6 0.11286594761171 33.8 0.332]
+MF3='medium-high':'dsigmf',[31.2 0.363 23.6 0.592]
+MF4='high':'sigmf',[20.1 0.655837442218798]
+
+[Input3]
+Name='feature_3'
+Range=[0 1]
+NumMFs=4
+MF1='low':'sigmf',[-78.1 0.0554496147919876]
+MF2='medium':'dsigmf',[59.4 0.141 19.1452434509296 0.375]
+MF3='medium-high':'dsigmf',[27.1 0.342 28.6483194851175 0.574]
+MF4='high':'sigmf',[16.5 0.6367]
+
+[Output1]
+Name='output1'
+Range=[1 3]
+NumMFs=3
+MF1='sit':'gbellmf',[0.25 2.22 1]
+MF2='walk':'gbellmf',[0.25 2.2 2]
+MF3='run':'gbellmf',[0.25 2.2 3]
+
+[Rules]
+2 2 2, 1 (0.8) : 1
+2 2 3, 1 (0.5) : 1
+2 4 2, 1 (0.5) : 1
+2 4 3, 1 (0.5) : 1
+2 2 2, 2 (0.5) : 1
+2 2 4, 2 (1) : 1
+3 2 2, 2 (1) : 1
+3 2 3, 2 (0.8) : 1
+3 2 4, 2 (1) : 1
+4 -4 0, 2 (0.5) : 1
+0 4 2, 3 (1) : 1
+2 0 3, 3 (0.5) : 1
+2 2 3, 3 (1) : 1
+2 3 2, 3 (1) : 1
+3 3 2, 3 (1) : 1
+4 3 2, 3 (1) : 1

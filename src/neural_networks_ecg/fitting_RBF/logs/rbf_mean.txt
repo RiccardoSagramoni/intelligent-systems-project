@@ -1,0 +1,24 @@
+03-Sep-2022 19:30:52
+Min distance between adjacent input vectors: 0.017807
+Max distance across whole input space: 1.584706
+Spread: 0.450000
+NEWRB, neurons = 0, MSE = 5056.36
+NEWRB, neurons = 10, MSE = 3637.53
+NEWRB, neurons = 20, MSE = 2851.86
+NEWRB, neurons = 30, MSE = 1966.5
+Error after newrb: 1966.495537 (1.966496e+03)
+Rsquared after newrb: 0.611085
+Calculation mode: Parallel with MATLAB Workers
+ 
+Training Radial Basis Network with TRAINBR.
+Worker 1: 
+  Epoch 0/100, Time 0.136, Performance 1966.4955/0, Gradient 7211.2056/1e-07, Mu 0.005/10000000000, Effective # Param 361/0, Sum Squared Param 1069576746.7813/0, Validation Checks 0/0
+  Epoch 20/100, Time 1.101, Performance 346.3033/0, Gradient 297.4791/1e-07, Mu 50/10000000000, Effective # Param 358.8924/0, Sum Squared Param 1069576150.4086/0, Validation Checks 0/0
+  Epoch 40/100, Time 1.996, Performance 279.7796/0, Gradient 324.18/1e-07, Mu 50/10000000000, Effective # Param 359.1762/0, Sum Squared Param 1069576153.2651/0, Validation Checks 0/0
+  Epoch 60/100, Time 2.97, Performance 250.0272/0, Gradient 234.496/1e-07, Mu 50/10000000000, Effective # Param 359.4602/0, Sum Squared Param 1069576711.749/0, Validation Checks 0/0
+  Epoch 80/100, Time 3.866, Performance 240.5392/0, Gradient 845.8354/1e-07, Mu 50/10000000000, Effective # Param 359.7499/0, Sum Squared Param 1069577122.656/0, Validation Checks 0/0
+  Epoch 100/100, Time 4.782, Performance 232.2613/0, Gradient 493.5202/1e-07, Mu 50/10000000000, Effective # Param 360.0852/0, Sum Squared Param 1069577369.5525/0, Validation Checks 0/0
+  Training with TRAINBR completed: Training finished: Reached maximum number of epochs
+   
+Error after training with TRAINBR: 232.261343 (2.322613e+02)
+Rsquared after training with TRAINBR: 0.954213

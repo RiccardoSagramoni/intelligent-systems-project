@@ -1,0 +1,8 @@
+12-Jul-2022 10:13:15
+Start forward sequential feature selection:
+Initial columns included:  none
+Columns that can not be included:  none
+Step 1, added column 3, criterion value 0.000844791
+Step 2, added column 12, criterion value 0.000721586
+Step 3, added column 9, criterion value 0.0006458
+Final columns included:  3 9 12 

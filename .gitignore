@@ -1,0 +1,13 @@
+dataset/
+.MATLABDriveTag
+*.asv
+**/.ignore/
+src/saves/RNN_input.mat
+src/saves/CNN_INPUT.mat
+src/saves/RNN_input/*
+src/saves/CNN_input/*
+src/saves/RNN_test.mat
+src/saves/RNN_train.mat
+src/saves/CNN_data_target.mat
+src/saves/CNN_data.mat
+src/saves/CNN_input.mat

@@ -1,0 +1,131 @@
+ANFIS info:
+	Number of nodes: 158
+	Number of linear parameters: 256
+	Number of nonlinear parameters: 36
+	Total number of parameters: 292
+	Number of training data pairs: 3366
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 64
+
+
+Start training ANFIS ...
+
+1 	 0.500383
+2 	 0.498909
+3 	 0.497546
+4 	 0.496287
+Step size increases to 0.011000 after epoch 5.
+5 	 0.495115
+6 	 0.493998
+7 	 0.492783
+8 	 0.491514
+Step size increases to 0.012100 after epoch 9.
+9 	 0.490134
+10 	 0.488616
+
+Designated epoch number reached. ANFIS training completed at epoch 10.
+
+Minimal training RMSE = 0.488616
+Correctly classified: 74.806892%
+SIT: 72.727273%
+WALK: 87.165775%
+RUN: 64.527629%
+
+[SIT]: classified as sit 72.727273%, walk 26.292335%, run 0.713012%
+[WALK]: classified as sit 4.991087%, walk 87.165775%, run 7.843137%
+[RUN]: classified as sit 2.317291%, walk 32.798574%, run 64.527629%
+
+Normalizing data...
+Computing potential for each data point...
+Found cluster 1, potential = 1
+Found cluster 2, potential = 0.657207
+Found cluster 3, potential = 0.458705
+Setting up matrix for linear least squares estimation...
+Solving linear least squares estimation problem...
+Creating FIS matrix...
+
+ANFIS info:
+	Number of nodes: 30
+	Number of linear parameters: 12
+	Number of nonlinear parameters: 18
+	Total number of parameters: 30
+	Number of training data pairs: 3366
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 3
+
+
+Start training ANFIS ...
+
+1 	 0.671077
+2 	 0.659494
+3 	 0.656045
+4 	 0.652764
+Step size increases to 0.011000 after epoch 5.
+5 	 0.646746
+6 	 0.648144
+7 	 0.644528
+8 	 0.645502
+Step size decreases to 0.009900 after epoch 9.
+9 	 0.642361
+10 	 0.643176
+
+Designated epoch number reached. ANFIS training completed at epoch 10.
+
+Minimal training RMSE = 0.642361
+Correctly classified: 56.833036%
+SIT: 41.889483%
+WALK: 89.304813%
+RUN: 39.304813%
+
+[SIT]: classified as sit 41.889483%, walk 56.773619%, run 1.069519%
+[WALK]: classified as sit 0.713012%, walk 89.304813%, run 9.982175%
+[RUN]: classified as sit 4.278075%, walk 56.417112%, run 39.304813%
+
+Iteration count = 1, obj. fcn = 1087.195646
+Iteration count = 2, obj. fcn = 845.388666
+Iteration count = 3, obj. fcn = 842.361151
+Iteration count = 4, obj. fcn = 822.060079
+Iteration count = 5, obj. fcn = 684.299927
+Iteration count = 6, obj. fcn = 290.132646
+Iteration count = 7, obj. fcn = 205.629898
+Iteration count = 8, obj. fcn = 205.081986
+Iteration count = 9, obj. fcn = 205.072962
+Iteration count = 10, obj. fcn = 205.072669
+Iteration count = 11, obj. fcn = 205.072660
+
+ANFIS info:
+	Number of nodes: 30
+	Number of linear parameters: 12
+	Number of nonlinear parameters: 18
+	Total number of parameters: 30
+	Number of training data pairs: 3366
+	Number of checking data pairs: 0
+	Number of fuzzy rules: 3
+
+
+Start training ANFIS ...
+
+1 	 0.687276
+2 	 0.679691
+3 	 0.671488
+4 	 0.66403
+Step size increases to 0.011000 after epoch 5.
+5 	 0.656571
+6 	 0.648758
+7 	 0.639886
+8 	 0.630907
+Step size increases to 0.012100 after epoch 9.
+9 	 0.622127
+10 	 0.614151
+
+Designated epoch number reached. ANFIS training completed at epoch 10.
+
+Minimal training RMSE = 0.614151
+Correctly classified: 59.239453%
+SIT: 54.010695%
+WALK: 85.294118%
+RUN: 38.413547%
+
+[SIT]: classified as sit 54.010695%, walk 45.187166%, run 0.713012%
+[WALK]: classified as sit 1.871658%, walk 85.294118%, run 12.834225%
+[RUN]: classified as sit 2.762923%, walk 58.823529%, run 38.413547%
